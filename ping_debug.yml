@@ -1,8 +1,8 @@
-- name: Hello World Sample by 
-  hosts: all
+- name: TEST PING PLABOOK
+  hosts: all:!CONTROL
   tasks:
     - name: ping all hosts
       ping:
     - name: Hello Message
       debug:
-        msg: "Hello World!"
+        msg: "TEST PING OK"
